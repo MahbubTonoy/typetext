@@ -22,19 +22,19 @@ A step by step series of examples that tell you how to get a development env run
 add `data-text` attribute into textarea/div or other element of your webpage. add your typeing text as attribute value.
 
 ```
-<textarea rows = "4" cols = "50" __data-text = "Your TypeText Goes Here"__ ></textarea>
+<textarea rows = "4" cols = "50" **data-text = "Your TypeText Goes Here"** ></textarea>
 ```
 
 and then add `data-speed` attribute into textarea/div or other element of your webpage. add your typing speed(millisecond) as attribute value.
 
 ```
-<textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" __data-speed = "100"__></textarea>
+<textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" **data-speed = "100"**></textarea>
 ```
 after that add `data-output` attribute into textarea/div or other element of your webpage. add your output type (innerHTML/placeholder/value) as attribute value.
 (NOTE: attributes and it's values are case-sensitive, don't add 'innerhtml' or 'innerHtml' use innerHTML.)
 
 ```
-<textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" data-speed = "100" __data-output = "innerHTML"__></textarea>
+<textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" data-speed = "100" **data-output = "innerHTML"**></textarea>
 ```
 
 Now Your Plugin is Ready To Run. Best of luck
