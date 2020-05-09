@@ -12,7 +12,7 @@ What things you need to install the software and how to install them
 
 Download And Include typetext.js or typetext.min.js (the minified version) in into the heading tag your webpage.
 ```
-<script src = "typetext.min.js" type = "text/javascript"/>
+<script src = "typetext.min.js" type = "text/javascript"></script>
 ```
 
 ### Installing
