@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Type Text</title>
+  <script src="https://kit.fontawesome.com/6ccfb18a18.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+  <link rel = "stylesheet" href = "res/styles.css" type  = "text/css"/>
+  <link rel = "stylesheet" href = "res/responsive.css" type = "text/css" />
+</head>
+<body>
+  <div class = "container">
+    <div class = "header">TypeText By<span class = "break"> </span>Mahbub Tonoy</div>
+    <div class = "subheading">We Love Coding &lt;3 </div>
+    <div id = "title" class = "title">Download The Best Light Weight Typing Text Plugin For Free.</div>
+    <div id = "textareaContainer" class = "textarea-container">
+      <span class = "example">Example:</span>
+      <textarea class = "textarea" type = "text" id = "typeText"
+      data-text = "This JavaScript plugin has been developed by Mahbub Rashid Tonoy.
+This is some long text.
+Download source files from GitHub.
+Read the Documentation before use this Plugin."
+    data-speed = "100"
+    data-output = "innerHTML"
+    ></textarea>
+    </div>
+    <div class = "download">Download Plugin From <a href = "#" target="_BLANK">GitHub</a></div>
+    <div id = "documentationId" class = "documentation"><a onclick="loadDoc()" href = "javascript:void(0)">Read the Documentation</a></div>
+    <div class = "social-section">
+      <ul>
+        <li class = "facebook"><a href = "https://www.facebook.com/ThizIzTonoy" target="_BLANK"><i class="fab fa-facebook-f"></i></a></li>
+        <li class = "twitter"><a href = "https://twitter.com/mahbub_tonoy" target="_BLANK"><i class="fab fa-twitter"></i></a></li>
+        <li class = "github"><a href = "https://github.com/MahbubTonoy" target="_BLANK"><i class="fab fa-github"></i></a></li>
+        <li class = "linkedin"><a href = "https://www.linkedin.com/in/mahbub-rashid-tonoy-7512b9190/" target="_BLANK"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class = "instagram"><a href = "https://www.instagram.com/thiziztonoy/" target="_BLANK"><i class="fab fa-instagram"></i></a></li>
+        <li class="youtube"><a href = "https://www.youtube.com/channel/UCgzqDjtSLkoXYbHxMhhMDmw" target="_BLANK"><i class="fab fa-youtube"></i></a></li>
+      </ul>
+    </div>
+    <div class = "footer">
+      Copyright &copy; Mahbub Rashid Tonoy
+    </div>
+  </div>
+  <script src = "dist/typetext.js"></script>
+  <script>
+    function loadDoc() {
+      document.getElementById('title').innerHTML = "TypeText Documentation";
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("textareaContainer").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "documentation.txt", true);
+  xhttp.send();
+  document.getElementById("documentationId").style.display = "none";
+}
+  </script>
+</body>
+</html>

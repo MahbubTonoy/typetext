@@ -1,0 +1,72 @@
+<div class="doc">
+  <div class="doc-title">TypeText By Mahbub Tonoy</div>
+  <p>
+    TypeText is a automatic typeing JavaScript API. This is a lite and minified javascript API for every modern
+    websites.
+  </p>
+
+  <div class="doc-subtitle">Getting Started</div>
+
+  <p>
+    These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+  </p>
+
+  <div class="doc-subtitle">Prerequisites</div>
+
+
+  <p>What things you need to install the software and how to install them</p>
+
+  <p>Download And Include typetext.js or typetext.min.js (the minified version) in into the heading tag your webpage.
+  </p>
+
+  <span>
+  &lt;script src = "typetext.min.js" type = "text/javascript"&gt;</script>
+</span>
+
+  <div class="doc-subtitle">Installing</div>
+
+  <p>A step by step series of examples that tell you how to get a development env running</p>
+
+  <p>add `data-text` attribute into textarea/div or other element of your webpage. add your typeing text as attribute
+    value.</p>
+
+  <span>
+  &lt;textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" &gt;&lt;/textarea&gt;
+</span>
+
+
+  <p>and then add `data-speed` attribute into textarea/div or other element of your webpage. add your typing
+    speed(millisecond) as attribute value.</p>
+
+  <span>
+  &lt;textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" data-speed = "100"&gt;&lt;/textarea&gt;
+</span>
+
+  <p>after that add `data-output` attribute into textarea/div or other element of your webpage. add your output type
+    (innerHTML/placeholder/value) as attribute value.</p>
+
+  <span>
+  &lt;textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" data-speed = "100" data-output = "innerHTML"&gt;&lt;/textarea&gt;
+</span>
+<p class="note">(NOTE: attributes and it's values are case-sensitive, don't use 'innerhtml' or 'innerHtml'. use innerHTML.)</p>
+
+  <p>Now Your Plugin is Ready To Run. Best of luck</p>
+
+  <div class="doc-subtitle">Built With</div>
+
+  * <a href = "https://www.w3schools.com/js/"></a>JavaScript - The Web Programming Language
+
+  <div class="doc-subtitle">Contributing</div>
+
+  <p>This Project has been contributed by <a href = "https://www.facebook.com/ThizIztonoy" target = "_blank">"Mahbub Rashid Tonoy"</a></p>
+
+  <div class="doc-subtitle">Versioning</div>
+
+  <p>Project Will Update Day By Day.</p>
+
+  <div class="doc-subtitle">Authors</div>
+
+  <p><b>Mahbub Rashid Tonoy</b> - Programmer - [GitHub: <a href = "https://github.com/MahbubTonoy" target = "_blank">MahbubTonoy</a>]</p>
+  
+</div>
