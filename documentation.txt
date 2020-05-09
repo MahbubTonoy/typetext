@@ -21,7 +21,7 @@
   </p>
 
   <span>
-  &lt;script src = "typetext.min.js" type = "text/javascript"&gt;</script>
+  &lt;script src = "typetext.min.js" type = "text/javascript"&gt;&lt;/script&gt;
 </span>
 
   <div class="doc-subtitle">Installing</div>
