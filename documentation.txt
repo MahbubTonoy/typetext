@@ -20,8 +20,8 @@
   <p>Download And Include typetext.js or typetext.min.js (the minified version) in into the heading tag your webpage.
   </p>
 
-  <span>
-  &lt;script src = "typetext.min.js" type = "text/javascript"&gt; &lt;/script&gt;
+  <span class = "script">
+  &lt;script src = "typetext.min.js" type = "text/javascript"&gt;&lt/script&gt;
 </span>
 
   <div class="doc-subtitle">Installing</div>
@@ -32,7 +32,7 @@
     value.</p>
 
   <span>
-  &lt;textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" &gt;&lt;/textarea&gt;
+  &lt;textarea rows = "4" cols = "50" <i>data-text = "Your TypeText Goes Here"</i> &gt;&lt;/textarea&gt;
 </span>
 
 
@@ -40,14 +40,14 @@
     speed(millisecond) as attribute value.</p>
 
   <span>
-  &lt;textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" data-speed = "100"&gt;&lt;/textarea&gt;
+  &lt;textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" <i>data-speed = "100"</i>&gt;&lt;/textarea&gt;
 </span>
 
   <p>after that add `data-output` attribute into textarea/div or other element of your webpage. add your output type
     (innerHTML/placeholder/value) as attribute value.</p>
 
   <span>
-  &lt;textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" data-speed = "100" data-output = "innerHTML"&gt;&lt;/textarea&gt;
+  &lt;textarea rows = "4" cols = "50" data-text = "Your TypeText Goes Here" data-speed = "100" <i>data-output = "innerHTML"</i>&gt;&lt;/textarea&gt;
 </span>
 <p class="note">(NOTE: attributes and it's values are case-sensitive, don't use 'innerhtml' or 'innerHtml'. use innerHTML.)</p>
 
